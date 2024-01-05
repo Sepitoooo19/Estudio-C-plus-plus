@@ -6,7 +6,7 @@ int main(){
 
     //Circunferencia de un circulo
     
-    //Para hacer constante una variable se coloca la palabra reservada const antes del tipo de dato 
+    //Para hacer constante una variable se coloca la palabra reservada const antes del tipo de dato
 
     const double PI = 3.1416;
 
