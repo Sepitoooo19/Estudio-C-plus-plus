@@ -29,10 +29,9 @@ int main(){
 
     cout << numero2 << endl;
 
-    
+    //Esto se puede hacer con los diferentes tipos de datos
 
-
-
+    return 0;
 
 
 
