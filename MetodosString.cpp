@@ -18,7 +18,7 @@ int main(){
 
     int metodo;
 
-    cout << "Ingrese el metodo que desea utilizar (lenght = 1, empty = 2) : " << endl;
+    cout << "Ingrese el metodo que desea utilizar(Lenght = 1, empty = 2, clear = 3, append = 4, Insert = 5, at = 6, Find  = 7): " << endl;
 
     cin >> metodo;
 
@@ -56,7 +56,19 @@ int main(){
 
         break;
 
+    case 5:
+        nombre.insert(0, "Hola, mi nombre es "); // insert() inserta un string en una posicion especifica
+        cout << nombre << endl;
+        break;
     
+    case 6:
+        cout << nombre.at(0) << endl; // at() devuelve el caracter en la posicion especificada
+        break;
+
+    case 7:
+        cout << nombre.find("B") << endl; // find() devuelve la posicion de la primera ocurrencia de un string
+        break;
+
     }
     
 
